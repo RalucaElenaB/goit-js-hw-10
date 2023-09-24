@@ -1,0 +1,57 @@
+/* .cat-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat-info-img {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  margin-left: 10px;
+}
+
+h2 {
+  color: red;
+  text-transform: uppercase;
+} */
+
+.cat-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Modificare a alinierii verticale */
+}
+
+.cat-info-img {
+  flex: 1;
+  padding: 10px;
+}
+
+.cat-info-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.cat-info-item {
+  flex: 2;
+  padding: 10px;
+}
+
+.cat-info-item h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cat-info-item p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.breed-select {
+  appearance: none;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+}
